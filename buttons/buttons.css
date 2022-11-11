@@ -1,0 +1,54 @@
+.main-button {
+    display: flex;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 3.5%;
+}
+
+.button {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5%;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0s;
+    cursor: pointer;
+}
+
+.normal-button {
+    background-color: rgb(211, 243, 249);
+    border: 3px solid rgb(23, 98, 116);
+    color: black;
+}
+
+.accept-button {
+    background-color: greenyellow;
+    color: black;
+}
+
+.cancel-button {
+    background-color: rgb(255, 41, 41);
+    color: black;
+}
+
+.normal-button:hover {
+    background-color: rgb(23, 98, 116);
+    color: white;
+}
+
+.accept-button:hover {
+    background-color: green;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: rgb(139, 0, 0);
+    color: white;
+}
+
+.button-text {
+    text-decoration: none;
+}

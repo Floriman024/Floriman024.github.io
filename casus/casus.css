@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(211, 243, 249);
+    border: 3px solid rgb(23, 98, 116);
+    margin: 7px;
+    border-radius: 5%;
+    color: rgb(46, 54, 59);
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(23, 98, 116);
+    color: white;
+}
+
+.button-text {
+    text-decoration: none;
+}

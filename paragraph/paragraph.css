@@ -1,0 +1,26 @@
+.paragraph-1 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px
+}
+
+.paragraph-2 {
+    color: greenyellow;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.paragraph-3 {
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.main-button {
+    display: flex;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 3.5%;
+}

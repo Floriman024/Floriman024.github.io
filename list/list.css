@@ -1,0 +1,27 @@
+.main-button {
+    display: flex;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 3.5%;
+}
+
+.list {
+    color: white;
+    margin-left: 10px;
+}
+
+.list-1 {
+    list-style-type: circle;
+}
+
+.list-2 {
+    list-style-type: square;
+}
+
+.list-3 {
+    list-style-type: upper-roman;
+}
+
+.list-4 {
+    list-style-type: lower-alpha;
+}

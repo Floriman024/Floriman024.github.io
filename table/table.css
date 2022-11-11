@@ -1,0 +1,27 @@
+.main-button {
+  display: flex;
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 3.5%;
+}
+
+.table {
+  margin: 10px;
+}
+
+table {
+  font-size: 20px;
+  color: white;
+  height: 350px;
+  width: 800px;
+}
+
+td,
+th {
+  border: 1px solid rgb(23, 98, 116);
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(23, 98, 116);
+}

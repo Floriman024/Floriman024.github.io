@@ -1,0 +1,106 @@
+.grid-container {
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+    grid-template-columns: 135px 1fr;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer"
+    ;
+}
+
+header {
+    background-color: rgb(0, 80, 98);
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+
+}
+
+nav {
+    background-color: rgb(23, 98, 116);
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: rgb(46, 54, 59);
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgb(23, 98, 116);
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-text {
+    margin-right: 50px;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.nav-text:hover {
+    font-size: 21px;
+}
+
+.glow {
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(255, 133, 208), 0 0 20px rgb(255, 147, 242), 0 0 30px #eaa0ff, 0 0 40px #db32f9, 0 0 50px #d452ff, 0 0 60px #ff31c5, 0 0 70px #d414ff;
+    }
+
+    to {
+        text-shadow: 0 0 10px rgb(255, 60, 232), 0 0 20px rgb(225, 0, 255), 0 0 30px #de22ff, 0 0 40px #fd69ff, 0 0 50px #e100ff, 0 0 60px #e100ff, 0 0 70px #d900ff;
+    }
+}
+
+.nav-glow {
+    color: rgb(217, 233, 251);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes nav-glow {
+    from {
+        text-shadow: 0 0 10px rgb(230, 141, 255), 0 0 20px rgb(184, 70, 255), 0 0 30px rgb(221, 87, 255) 0 0 40px #e532f9, 0 0 50px #c852ff, 0 0 60px #d631ff, 0 0 70px #bc14ff;
+    }
+
+    to {
+        text-shadow: 0 0 10px rgb(175, 66, 135), 0 0 20px rgb(143, 44, 140), 0 0 30px #9d1da6, 0 0 40px #f569ff, 0 0 50px #c800ff, 0 0 60px #cc00ff, 0 0 70px #dd00ff;
+    }
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.arrow {
+    height: 60px;
+    width: 60px;
+}
